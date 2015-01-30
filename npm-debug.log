@@ -1,0 +1,231 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'phantomjs',
+1 verbose cli   'karma-phantimjs-launcher' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json workspace@1.0.0 No repository field.
+5 warn package.json karma-mocha@0.1.10 No README data
+6 warn package.json karma-chrome-launcher@0.1.7 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'phantomjs', null ]
+9 verbose cache add name=undefined spec="phantomjs" args=["phantomjs",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'phantomjs',
+10 verbose parsed url   path: 'phantomjs',
+10 verbose parsed url   href: 'phantomjs' }
+11 verbose cache add [ 'karma-phantimjs-launcher', null ]
+12 verbose cache add name=undefined spec="karma-phantimjs-launcher" args=["karma-phantimjs-launcher",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'karma-phantimjs-launcher',
+13 verbose parsed url   path: 'karma-phantimjs-launcher',
+13 verbose parsed url   href: 'karma-phantimjs-launcher' }
+14 silly lockFile 30d7cd7d-phantomjs phantomjs
+15 verbose lock phantomjs /home/ubuntu/.npm/30d7cd7d-phantomjs.lock
+16 silly lockFile ae92be40-karma-phantimjs-launcher karma-phantimjs-launcher
+17 verbose lock karma-phantimjs-launcher /home/ubuntu/.npm/ae92be40-karma-phantimjs-launcher.lock
+18 silly lockFile 30d7cd7d-phantomjs phantomjs
+19 silly lockFile 30d7cd7d-phantomjs phantomjs
+20 silly lockFile ae92be40-karma-phantimjs-launcher karma-phantimjs-launcher
+21 silly lockFile ae92be40-karma-phantimjs-launcher karma-phantimjs-launcher
+22 verbose addNamed [ 'phantomjs', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 29cf7fd6-phantomjs phantomjs@
+25 verbose lock phantomjs@ /home/ubuntu/.npm/29cf7fd6-phantomjs.lock
+26 verbose addNamed [ 'karma-phantimjs-launcher', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile 06c45486-karma-phantimjs-launcher karma-phantimjs-launcher@
+29 verbose lock karma-phantimjs-launcher@ /home/ubuntu/.npm/06c45486-karma-phantimjs-launcher.lock
+30 silly addNameRange { name: 'phantomjs', range: '*', hasData: false }
+31 silly addNameRange { name: 'karma-phantimjs-launcher', range: '*', hasData: false }
+32 verbose request where is /phantomjs
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id b28b5a88b353ed85
+35 verbose url raw /phantomjs
+36 verbose url resolving [ 'https://registry.npmjs.org/', './phantomjs' ]
+37 verbose url resolved https://registry.npmjs.org/phantomjs
+38 verbose request where is https://registry.npmjs.org/phantomjs
+39 info trying registry request attempt 1 at 20:40:33
+40 http GET https://registry.npmjs.org/phantomjs
+41 verbose request where is /karma-phantimjs-launcher
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /karma-phantimjs-launcher
+44 verbose url resolving [ 'https://registry.npmjs.org/', './karma-phantimjs-launcher' ]
+45 verbose url resolved https://registry.npmjs.org/karma-phantimjs-launcher
+46 verbose request where is https://registry.npmjs.org/karma-phantimjs-launcher
+47 info trying registry request attempt 1 at 20:40:34
+48 http GET https://registry.npmjs.org/karma-phantimjs-launcher
+49 http 200 https://registry.npmjs.org/phantomjs
+50 silly registry.get cb [ 200,
+50 silly registry.get   { date: 'Thu, 29 Jan 2015 20:40:34 GMT',
+50 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly registry.get     etag: '"1BP7KMWWZC3GRXNJZ6QNYE6PV"',
+50 silly registry.get     'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=60',
+50 silly registry.get     'content-length': '93149',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '56',
+50 silly registry.get     'x-served-by': 'cache-ord1725-ORD',
+50 silly registry.get     'x-cache': 'HIT',
+50 silly registry.get     'x-cache-hits': '1',
+50 silly registry.get     'x-timer': 'S1422564034.066601,VS0,VE0',
+50 silly registry.get     vary: 'Accept',
+50 silly registry.get     'keep-alive': 'timeout=10, max=50',
+50 silly registry.get     connection: 'Keep-Alive' } ]
+51 silly addNameRange number 2 { name: 'phantomjs', range: '*', hasData: true }
+52 silly addNameRange versions [ 'phantomjs',
+52 silly addNameRange   [ '0.0.1',
+52 silly addNameRange     '0.0.2',
+52 silly addNameRange     '0.0.3',
+52 silly addNameRange     '0.0.4',
+52 silly addNameRange     '0.0.5',
+52 silly addNameRange     '0.0.6',
+52 silly addNameRange     '0.0.7',
+52 silly addNameRange     '0.0.8',
+52 silly addNameRange     '0.0.9',
+52 silly addNameRange     '0.1.0',
+52 silly addNameRange     '0.1.1',
+52 silly addNameRange     '0.2.0',
+52 silly addNameRange     '0.2.1',
+52 silly addNameRange     '0.2.2',
+52 silly addNameRange     '0.2.3',
+52 silly addNameRange     '0.2.4',
+52 silly addNameRange     '0.2.5',
+52 silly addNameRange     '0.2.6',
+52 silly addNameRange     '1.8.0-1',
+52 silly addNameRange     '1.8.1-1',
+52 silly addNameRange     '1.8.1-2',
+52 silly addNameRange     '1.8.1-3',
+52 silly addNameRange     '1.8.2-0',
+52 silly addNameRange     '1.8.2-1',
+52 silly addNameRange     '1.8.2-2',
+52 silly addNameRange     '1.9.0-0',
+52 silly addNameRange     '1.9.0-1',
+52 silly addNameRange     '1.9.0-2',
+52 silly addNameRange     '1.9.0-3',
+52 silly addNameRange     '1.9.0-4',
+52 silly addNameRange     '1.9.0-5',
+52 silly addNameRange     '1.9.0-6',
+52 silly addNameRange     '1.9.1-0',
+52 silly addNameRange     '1.9.1-2',
+52 silly addNameRange     '1.9.1-3',
+52 silly addNameRange     '1.9.1-4',
+52 silly addNameRange     '1.9.1-5',
+52 silly addNameRange     '1.9.1-6',
+52 silly addNameRange     '1.9.1-7',
+52 silly addNameRange     '1.9.1-8',
+52 silly addNameRange     '1.9.1-9',
+52 silly addNameRange     '1.9.2-0',
+52 silly addNameRange     '1.9.2-1',
+52 silly addNameRange     '1.9.2-2',
+52 silly addNameRange     '1.9.2-3',
+52 silly addNameRange     '1.9.2-4',
+52 silly addNameRange     '1.9.2-5',
+52 silly addNameRange     '1.9.2-6',
+52 silly addNameRange     '1.9.6-0',
+52 silly addNameRange     '1.9.7-1',
+52 silly addNameRange     '1.9.7-3',
+52 silly addNameRange     '1.9.7-4',
+52 silly addNameRange     '1.9.7-5',
+52 silly addNameRange     '1.9.7-6',
+52 silly addNameRange     '1.9.7-7',
+52 silly addNameRange     '1.9.7-8',
+52 silly addNameRange     '1.9.7-9',
+52 silly addNameRange     '1.9.7-10',
+52 silly addNameRange     '1.9.7-11',
+52 silly addNameRange     '1.9.7-12',
+52 silly addNameRange     '1.9.7-13',
+52 silly addNameRange     '1.9.7-14',
+52 silly addNameRange     '1.9.7-15',
+52 silly addNameRange     '1.8.2-3',
+52 silly addNameRange     '1.9.8',
+52 silly addNameRange     '1.9.9',
+52 silly addNameRange     '1.9.10',
+52 silly addNameRange     '1.9.11',
+52 silly addNameRange     '1.9.12',
+52 silly addNameRange     '1.9.13',
+52 silly addNameRange     '1.9.15' ] ]
+53 verbose addNamed [ 'phantomjs', '1.9.15' ]
+54 verbose addNamed [ '1.9.15', '1.9.15' ]
+55 silly lockFile c14a4246-phantomjs-1-9-15 phantomjs@1.9.15
+56 verbose lock phantomjs@1.9.15 /home/ubuntu/.npm/c14a4246-phantomjs-1-9-15.lock
+57 silly lockFile a21f477f-g-phantomjs-phantomjs-1-9-15-tgz https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.15.tgz
+58 verbose lock https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.15.tgz /home/ubuntu/.npm/a21f477f-g-phantomjs-phantomjs-1-9-15-tgz.lock
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.15.tgz',
+59 verbose addRemoteTarball   '10032c8b36bd3541ecef953e764d5d177c33f72f' ]
+60 info retry fetch attempt 1 at 20:40:34
+61 verbose fetch to= /tmp/npm-5916-Oaj7D1A5/registry.npmjs.org/phantomjs/-/phantomjs-1.9.15.tgz
+62 http GET https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.15.tgz
+63 http 404 https://registry.npmjs.org/karma-phantimjs-launcher
+64 verbose headers { date: 'Thu, 29 Jan 2015 20:40:34 GMT',
+64 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+64 verbose headers   'content-type': 'application/json',
+64 verbose headers   'cache-control': 'max-age=0',
+64 verbose headers   'content-length': '52',
+64 verbose headers   'accept-ranges': 'bytes',
+64 verbose headers   via: '1.1 varnish',
+64 verbose headers   age: '0',
+64 verbose headers   'x-served-by': 'cache-ord1720-ORD',
+64 verbose headers   'x-cache': 'MISS',
+64 verbose headers   'x-cache-hits': '0',
+64 verbose headers   'x-timer': 'S1422564034.092184,VS0,VE65',
+64 verbose headers   'keep-alive': 'timeout=10, max=50',
+64 verbose headers   connection: 'Keep-Alive' }
+65 silly registry.get cb [ 404,
+65 silly registry.get   { date: 'Thu, 29 Jan 2015 20:40:34 GMT',
+65 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+65 silly registry.get     'content-type': 'application/json',
+65 silly registry.get     'cache-control': 'max-age=0',
+65 silly registry.get     'content-length': '52',
+65 silly registry.get     'accept-ranges': 'bytes',
+65 silly registry.get     via: '1.1 varnish',
+65 silly registry.get     age: '0',
+65 silly registry.get     'x-served-by': 'cache-ord1720-ORD',
+65 silly registry.get     'x-cache': 'MISS',
+65 silly registry.get     'x-cache-hits': '0',
+65 silly registry.get     'x-timer': 'S1422564034.092184,VS0,VE65',
+65 silly registry.get     'keep-alive': 'timeout=10, max=50',
+65 silly registry.get     connection: 'Keep-Alive' } ]
+66 silly lockFile 06c45486-karma-phantimjs-launcher karma-phantimjs-launcher@
+67 silly lockFile 06c45486-karma-phantimjs-launcher karma-phantimjs-launcher@
+68 http 200 https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.15.tgz
+69 silly lockFile a21f477f-g-phantomjs-phantomjs-1-9-15-tgz https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.15.tgz
+70 silly lockFile a21f477f-g-phantomjs-phantomjs-1-9-15-tgz https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.15.tgz
+71 silly lockFile c14a4246-phantomjs-1-9-15 phantomjs@1.9.15
+72 silly lockFile c14a4246-phantomjs-1-9-15 phantomjs@1.9.15
+73 silly lockFile 29cf7fd6-phantomjs phantomjs@
+74 silly lockFile 29cf7fd6-phantomjs phantomjs@
+75 error 404 404 Not Found: karma-phantimjs-launcher
+75 error 404
+75 error 404 'karma-phantimjs-launcher' is not in the npm registry.
+75 error 404 You should bug the author to publish it
+75 error 404 It was specified as a dependency of 'workspace'
+75 error 404
+75 error 404 Note that you can also install from a
+75 error 404 tarball, folder, or http url, or git url.
+76 error System Linux 3.14.13-c9
+77 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "phantomjs" "karma-phantimjs-launcher"
+78 error cwd /home/ubuntu/workspace
+79 error node -v v0.10.35
+80 error npm -v 1.4.28
+81 error code E404
+82 verbose exit [ 1, true ]
