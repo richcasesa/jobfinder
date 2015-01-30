@@ -14,8 +14,8 @@ app.get('*', function(req, res){
     res.render('index');
 });
 
-jobsData.connectDB('mongodb://localhost/jobfinder')
-//jobsData.connectDB('mongodb://dev:password@ds031631.mongolab.com:31631/jobfinder')
+//jobsData.connectDB('mongodb://localhost/jobfinder')
+jobsData.connectDB('mongodb://dev:password@ds031631.mongolab.com:31631/jobfinder')
 .then(function (){
     console.log('connected to mongodb successfully');
     jobsData.seedJobs();
